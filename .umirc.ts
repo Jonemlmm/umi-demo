@@ -4,6 +4,7 @@ export default defineConfig({
   routes: [
     { path: "/", component: "index" },
     { path: "/docs", component: "docs" },
+    { path: "/login", component: "login" },
   ],
-  npmClient: 'pnpm',
+  npmClient: 'npm',
 });
